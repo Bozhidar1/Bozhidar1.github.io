@@ -1,0 +1,82 @@
+h1 {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    height: 0px;
+}
+table{
+    background-color: #1abc9c;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+th, td{
+    padding: 12px 15px;
+}
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+tbody td:last-child:hover{
+    background-color: lime;
+}
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.row{
+    border: 2px solid black;
+}
+a{
+    color: black;
+}
+
+.footerInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    bottom: 0px;
+  }
+
+  footer {
+    background-color: aquamarine;
+    bottom: 0px;
+    width: 100%;
+    position: relative;
+    border: #000 1px solid;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 20%;
+    margin-top: 5%;
+  }
+
+  .tableTest{
+    margin: auto;
+  }

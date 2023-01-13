@@ -1,0 +1,44 @@
+h1 {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    height: 0px;
+}
+h1:hover {
+    animation-name: header_to;
+    animation-duration: 1s;
+}
+@keyframes header_to {
+    from {height: currentHeight; background: currentBackground ;}
+    to {height: 200px; background: #3c15d8;}
+}
+#format {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: aquamarine;
+    width: 200px;
+    border-radius: 20px;
+}
+#text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: aquamarine;
+    width: 210px;
+    border-radius: 20px;
+    border:2px solid black;
+    text-decoration: none;
+    color:black;
+}
+#text:hover{
+    background-color: #1abc9c;
+}
+#format_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
